@@ -27,7 +27,14 @@ body {
   line-height: 1.6;
   letter-spacing: 0.8px;
 
-  /* Lock the whole page to a centered 4:3 frame, capped at 1024×768. */
+  /* Keep the document canvas full-width; the frame is #page-frame below. */
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Explicit 4:3 frame around the entire page content. */
+#page-frame {
   width: min(100%, 1024px);
   height: min(75vw, 768px);
   margin: 0 auto;
