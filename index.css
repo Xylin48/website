@@ -27,12 +27,13 @@ body {
   line-height: 1.6;
   letter-spacing: 0.8px;
 
-  /* Original centered 4:3 frame, capped at 1024px wide. */
+  /* Lock the whole page to a centered 4:3 frame, capped at 1024×768. */
   width: min(100%, 1024px);
-  aspect-ratio: 4 / 3;
+  height: min(75vw, 768px);
   margin: 0 auto;
   padding: 35px;
   border: 2px dotted #00ff00;
+  overflow: auto;
 }
 
 /* 4. UNIVERSAL VIEWPORT CONTAINER */
