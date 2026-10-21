@@ -26,6 +26,13 @@ body {
   font-size: 26px;
   line-height: 1.6;
   letter-spacing: 0.8px;
+
+  /* Restore the original centered 4:3 overlay frame, capped at 1024px wide. */
+  width: min(100%, 1024px);
+  aspect-ratio: 4 / 3;
+  margin: 0 auto;
+  padding: 35px;
+  border: 2px dotted #00ff00;
 }
 
 /* 4. UNIVERSAL VIEWPORT CONTAINER */
