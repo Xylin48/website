@@ -258,3 +258,20 @@ body [role="button"] {
   min-width: 0 !important;
 }
 
+/* Restore original overlay spacing; button sizing above must not alter layout margins. */
+.container {
+  margin: 0 auto 0;
+}
+
+.profile .contact .f-row:first-of-type {
+  margin-top: 0px;
+}
+
+.details-table {
+  margin: 2px;
+}
+
+.comment-replies {
+  margin: 2px;
+}
+\n
