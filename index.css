@@ -148,23 +148,23 @@ select:focus {
   outline: 1px solid #00ff00;
 }
 
-/* Normal-sized orange buttons; dotted border appears only on hover/focus */
+/* Buttons at 64.3% of the previous button dimensions */
 button,
 .button {
   display: inline-block;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.643rem;
   font-weight: bold;
   background-color: #d87015;
   color: #111111;
-  border: 2px dotted transparent;
-  padding: 6px 12px;
+  border: 1.286px dotted transparent;
+  padding: 3.858px 7.716px;
   border-radius: 0;
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
-  outline: 2px dotted transparent;
-  outline-offset: 3px;
+  outline: 1.286px dotted transparent;
+  outline-offset: 1.929px;
 }
 
 button:hover,
