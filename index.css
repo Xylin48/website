@@ -34,12 +34,14 @@ body {
 }
 
 /* 4. UNIVERSAL VIEWPORT CONTAINER */
-/* Scaled dynamically to automatically lock into standard 4:3 canvas frames */
+/* Centered 4:3 content frame with a visible dotted phosphor border */
 .crt-container {
   width: 100%;
-  max-width: 1024px;        /* The ultimate baseline width; scales fluidly down to 800x600 while staying centered */
+  max-width: 1024px;
+  aspect-ratio: 4 / 3;
   margin: 0 auto;
   padding: 35px;
+  border: 2px dotted #00ff00;
 }
 
 /* 5. HEADINGS & STRUCTURE */
@@ -160,7 +162,12 @@ body {
 
 body {
   color: #00ff00;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  width: min(100%, 1024px);
+  aspect-ratio: 4 / 3;
+  margin: 0 auto;
+  padding: 35px;
+  border: 2px dotted #00ff00;
 }
 
 /* Headings */
