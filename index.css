@@ -144,3 +144,151 @@ img, video {
   margin: 2.5rem auto;
   filter: brightness(0.98) contrast(1.02); 
 }
+
+
+/* ==========================================================================
+   GREEN PHOSPHOR CRT THEME
+   Translated from MySpace profile CSS for a general-purpose website.
+   This theme intentionally leaves the original orange button rules unchanged.
+   ========================================================================== */
+
+/* Green phosphor palette and monospace typography */
+html,
+body {
+  background-color: #000000;
+}
+
+body {
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #00ff00;
+}
+
+/* General text */
+p, li, i, b, strong, em, small, label {
+  color: #00ff00;
+}
+
+/* Links */
+a {
+  color: #00ff00;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+a:hover,
+a:focus {
+  color: #9aff9a;
+  outline: 2px dashed #00ff00;
+  outline-offset: 4px;
+}
+
+/* General website navigation */
+nav {
+  color: #00ff00;
+  background-color: #000000;
+  border: 2px dotted #00ff00;
+}
+
+nav a {
+  color: #00ff00;
+}
+
+/* General semantic content areas */
+header,
+main,
+section,
+article,
+aside {
+  color: #00ff00;
+}
+
+main {
+  background-color: #000000;
+  border-left: 2px dotted #00ff00;
+  border-right: 2px dotted #00ff00;
+}
+
+/* Reusable heading/panel styles, if used by the site */
+.heading,
+.url-info {
+  color: #00ff00;
+  background-color: #000000;
+  border: 2px solid #00ff00;
+}
+
+.inner {
+  color: #00ff00;
+  border: 2px dotted #00ff00;
+}
+
+/* Form fields only — buttons deliberately retain the original orange styling */
+input,
+textarea,
+select {
+  color: #00ff00;
+  background-color: #000000;
+  border-color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #00ff00;
+  outline: 1px solid #00ff00;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  color: #00ff00;
+  background-color: #000000;
+  border: 1px solid #00ff00;
+}
+
+/* Logos and images: preserve the source theme's phosphor tint */
+.logo {
+  filter: sepia(100%) hue-rotate(45deg) saturate(10);
+}
+
+img {
+  filter: sepia(100%) hue-rotate(45deg) saturate(5);
+}
+
+/* Footer */
+footer {
+  color: #00ff00;
+  background-color: #000000;
+  border: 2px dotted #00ff00;
+}
+
+footer p {
+  color: #00ff00;
+}
+
+/* CRT scanlines. Pointer events remain transparent so the page stays clickable. */
+body::before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%,
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+  z-index: 9999;
+}
