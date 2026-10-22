@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/commodore-64');
+
 /* ==========================================================================
    UNIVERSAL FD CRT STYLESHEET (UNIVERSAL RETRO COMPATIBILITY PACK)
    Optimized for cross-platform physical CRT monitors and high-end FD TVs.
@@ -22,7 +24,7 @@ body {
   -moz-osx-font-smoothing: none;
   font-smoothing: none;
   text-rendering: optimizeSpeed;
-  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  font-family: 'Commodore 64', sans-serif;
   font-size: 26px;
   line-height: 1.6;
   letter-spacing: 0.8px;
