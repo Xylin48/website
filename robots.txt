@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xylin48.site/sitemap.xml
