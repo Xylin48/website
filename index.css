@@ -164,12 +164,12 @@ select:focus {
   outline: 1px solid #00ff00;
 }
 
-/* Buttons at 64.3% of the previous button dimensions */
+/* Button font size shared across the site's stylesheets */
 button,
 .button {
   display: inline-block;
   font-family: inherit;
-  font-size: 0.643rem;
+  font-size: 0.850rem;
   font-weight: bold;
   background-color: #d87015;
   color: #111111;
@@ -264,7 +264,7 @@ body input[type="submit"],
 body input[type="reset"],
 body a[role="button"],
 body [role="button"] {
-  font-size: 0.643rem !important;
+  font-size: 0.850rem !important;
   line-height: 1.2 !important;
   padding: 3.858px 7.716px !important;
   border-width: 1.286px !important;
