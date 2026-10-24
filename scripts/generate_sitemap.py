@@ -12,7 +12,7 @@ from urllib.parse import quote
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent
-BASE_URL = "https://xylin48.site"
+BASE_URL = "http://xylin48.site"
 SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 ET.register_namespace("", SITEMAP_NS)
 
