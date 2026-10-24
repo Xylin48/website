@@ -66,7 +66,7 @@ def main():
         relative = path.relative_to(ROOT)
         if any(part.startswith(".") for part in relative.parts):
             continue
-        if relative.name.startswith("google") and "verification" in relative.name:
+        if relative.name.startswith("google") and relative.suffix.lower() == ".html":
             continue
         if not has_visible_content(path):
             continue
