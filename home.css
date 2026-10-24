@@ -113,6 +113,7 @@ nav {
 nav a {
   color: #00ff00;
 }
+div {text-align: center;}
 
 /* General semantic content areas */
 header,
