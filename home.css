@@ -292,3 +292,59 @@ body [role="button"] {
   margin: 2px;
 }
 \n
+
+
+/* ==========================================================================
+   MAIN HUB MENU — additive styling for home.html
+   Custard-gold page text and vertically stacked terminal-style menu buttons.
+   ========================================================================== */
+body {
+  color: #c7a940;
+}
+
+/* Page copy uses the custard-gold accent; buttons keep their own colors. */
+main, section, article, aside, p, li, header, footer {
+  color: #c7a940;
+}
+
+/* Apply this class to the menu wrapper when home.html gains its menu. */
+.hub-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hub-menu button,
+.hub-menu .button,
+.hub-menu a[role="button"] {
+  display: block;
+  width: 78%;
+  max-width: 100%;
+  background: #080808;
+  color: #00ff00;
+  border: 1px dotted #00ff00;
+  padding: 8px !important;
+  text-align: center;
+  text-decoration: none;
+}
+
+.hub-menu button:hover,
+.hub-menu .button:hover,
+.hub-menu a[role="button"]:hover,
+.hub-menu button:focus-visible,
+.hub-menu .button:focus-visible,
+.hub-menu a[role="button"]:focus-visible {
+  background: #142414;
+  color: #9aff9a;
+  border-color: #9aff9a;
+}
+
+.hub-menu button:active,
+.hub-menu .button:active,
+.hub-menu a[role="button"]:active {
+  background: #244024;
+}
