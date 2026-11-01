@@ -307,8 +307,8 @@ main, section, article, aside, p, li, header, footer {
   color: #c7a940;
 }
 
-/* Apply this class to the menu wrapper when home.html gains its menu. */
-.hub-menu {
+/* Style the existing div directly; no additional HTML class needed. */
+div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -318,9 +318,9 @@ main, section, article, aside, p, li, header, footer {
   text-align: center;
 }
 
-.hub-menu button,
-.hub-menu .button,
-.hub-menu a[role="button"] {
+div button,
+div .button,
+div a[role="button"] {
   display: block;
   width: 78%;
   max-width: 100%;
@@ -332,19 +332,19 @@ main, section, article, aside, p, li, header, footer {
   text-decoration: none;
 }
 
-.hub-menu button:hover,
-.hub-menu .button:hover,
-.hub-menu a[role="button"]:hover,
-.hub-menu button:focus-visible,
-.hub-menu .button:focus-visible,
-.hub-menu a[role="button"]:focus-visible {
+div button:hover,
+div .button:hover,
+div a[role="button"]:hover,
+div button:focus-visible,
+div .button:focus-visible,
+div a[role="button"]:focus-visible {
   background: #142414;
   color: #9aff9a;
   border-color: #9aff9a;
 }
 
-.hub-menu button:active,
-.hub-menu .button:active,
-.hub-menu a[role="button"]:active {
+div button:active,
+div .button:active,
+div a[role="button"]:active {
   background: #244024;
 }
