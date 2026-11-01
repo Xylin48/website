@@ -328,6 +328,7 @@ div a[role="button"] {
   color: #00ff00;
   border: 1px dotted #00ff00;
   padding: 8px !important;
+  border-width: 1px !important;
   text-align: center;
   text-decoration: none;
 }
@@ -347,4 +348,12 @@ div button:active,
 div .button:active,
 div a[role="button"]:active {
   background: #244024;
+}
+
+/* Ensure hub buttons win over the earlier universal !important sizing rules. */
+body div button,
+body div .button,
+body div a[role="button"] {
+  padding: 8px !important;
+  border-width: 1px !important;
 }
