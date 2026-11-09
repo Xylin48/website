@@ -322,7 +322,7 @@ div button,
 div .button,
 div a[role="button"] {
   display: block;
-  width: 78%;
+  width: 45%;
   max-width: 100%;
   background: #080808;
   color: #00ff00;
