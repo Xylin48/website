@@ -354,6 +354,7 @@ div a[role="button"]:active {
 body div button,
 body div .button,
 body div a[role="button"] {
+  width: 45% !important;
   padding: 8px !important;
   border-width: 1px !important;
 }
